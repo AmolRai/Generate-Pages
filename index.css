@@ -162,7 +162,8 @@ footer {
   }
 
   .activity {
-    width: 28rem;
+    max-width: 100%;
+    width: 100vw;
   }
 
   .footer {
@@ -174,9 +175,9 @@ footer {
     margin-left: 1rem;
   }
 
-  .images {
+  /* .images {
     width: 50vw;
-  }
+  } */
 
   .first {
     width: 100%;
@@ -195,6 +196,21 @@ footer {
     position: absolute;
     top: 67.5rem;
     left: 18rem;
+  }
+
+  .left-container {
+    text-align: center;
+  }
+
+  .views {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
