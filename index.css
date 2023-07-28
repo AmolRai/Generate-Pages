@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.root {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+}
+
+.activity {
+  font-size: 3rem;
+  width: 36rem;
+  margin-top: 1rem;
+  line-height: 4rem;
+}
+
+.outdoor {
+  margin: 2rem auto;
+  font-size: 24px;
+}
+
+.key {
+  font-weight: 500;
+  color: #454545d6;
+}
+
+.left-container {
+  margin: 3rem;
+}
+
+.left-container button {
+  border: none;
+  background-color: #d93a31;
+  color: white;
+  padding: 1rem 2rem;
+  padding-right: 5rem;
+  cursor: pointer;
+}
+
+.special {
+  text-transform: none;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.views {
+  display: flex;
+  margin-top: 3.5rem;
+  gap: 10rem;
+}
+
+.views h1 {
+  font-size: 4rem;
+}
+
+.views p {
+  font-weight: normal;
+  color: rgb(63, 63, 63);
+  font-size: 12px;
+}
+
+.prices {
+  font-weight: normal;
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+
+.prices p {
+  color: #9497a8;
+}
+
+.prices h4 {
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-left: 1.7rem;
+}
+
+.images {
+  display: flex;
+}
+
+.box {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.glasses {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.backpack {
+  position: relative;
+}
+
+.bag {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #2b2b35;
+  z-index: -3;
+  height: 10rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  text-transform: uppercase;
+}
+
+.footer-one,
+.footer-two {
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info h4 {
+  margin-top: 5px;
+  letter-spacing: 1.5px;
+}
+
+.info p {
+  color: #b5b5c2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.first {
+  margin-left: 6.84rem;
+  width: 70%;
+  margin-top: 5rem;
+}
+
+.backpacks {
+  position: absolute;
+  right: 0;
+  top: 9.9rem;
+}
+
+.logo {
+  position: absolute;
+  top: 19rem;
+  left: -2.5rem;
+}
+
+.arrow {
+  margin-left: -4rem;
+}
+
+@media (max-width: 1300px) {
+  .root {
+    flex-direction: column;
+  }
+
+  .activity {
+    width: 28rem;
+  }
+
+  .footer {
+    gap: 0;
+  }
+
+  .footer-one,
+  .footer-two {
+    margin-left: 1rem;
+  }
+
+  .images {
+    width: 50vw;
+  }
+
+  .first {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .backpacks {
+    min-width: 50vw;
+    position: static;
+    right: 0;
+    top: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 67.5rem;
+    left: 18rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    position: absolute;
+    top: 63rem;
+    left: 13rem;
+  }
+
+  .bag {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 60%;
+  }
+}
