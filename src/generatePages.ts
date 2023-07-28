@@ -2,6 +2,7 @@ import fs from 'fs';
 import mustache from 'mustache';
 import path from 'path';
 
+// Generate as many pages as needed, even more than 10 if required.
 const NUM_PAGES = 10;
 
 // Function to fetch activity data from the API
@@ -44,4 +45,5 @@ async function generatePages() {
 
 generatePages();
 
+// Use the below command to generate the pages
 // npx ts-node src/generatePages.ts
