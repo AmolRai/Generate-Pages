@@ -38,12 +38,14 @@
   padding: 1rem 2rem;
   padding-right: 5rem;
   cursor: pointer;
+  width: 16rem;
 }
 
 .special {
   text-transform: none;
   font-weight: 400;
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .views {
@@ -111,7 +113,7 @@ footer {
   color: white;
   display: flex;
   align-items: center;
-  gap: 7rem;
+  gap: 4rem;
   text-transform: uppercase;
 }
 
@@ -137,13 +139,13 @@ footer {
 .first {
   margin-left: 6.84rem;
   width: 70%;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .backpacks {
   position: absolute;
   right: 0;
-  top: 9.9rem;
+  top: 12.6rem;
 }
 
 .logo {
@@ -153,9 +155,7 @@ footer {
 }
 
 .arrow {
-  position: absolute;
-  left: 10rem;
-  top: 1.2rem;
+  margin-left: -5rem;
 }
 
 @media (max-width: 1300px) {
@@ -199,7 +199,7 @@ footer {
     min-width: 50vw;
     position: static;
     right: 0;
-    top: 0;
+    top: 12.6rem;
   }
 
   .logo {
